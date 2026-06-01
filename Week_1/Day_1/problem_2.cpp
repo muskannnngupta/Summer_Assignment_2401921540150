@@ -21,3 +21,16 @@ public:
         return i+1;
     }
 };
+
+int main() {
+    vector<int> nums = {1, 1, 2,2,3,4,4};
+
+    Solution obj;
+    int ans = obj.removeDuplicates(nums);
+    for (int i = 0; i < ans; i++) {
+        cout << nums[i] << " ";
+    }
+    cout << endl;
+    cout << ans;
+    return 0;
+}

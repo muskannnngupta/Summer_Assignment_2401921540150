@@ -25,3 +25,14 @@ public:
         return ans;
     }
 };
+
+int main() {
+    vector<int> nums = {2, 7, 11, 15};
+    int target = 13;
+
+    Solution obj;
+    vector<int> ans = obj.twoSum(nums, target);
+
+    cout << ans[0] << " " << ans[1];
+    return 0;
+}

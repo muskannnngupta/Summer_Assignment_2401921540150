@@ -20,3 +20,13 @@ public:
         return maxProfit;
     }
 };
+
+int main() {
+    vector<int> prices = {7, 1, 5, 3, 6, 4};
+
+    Solution obj;
+    int ans = obj.maxProfit(prices);
+
+    cout << ans;
+    return 0;
+}
